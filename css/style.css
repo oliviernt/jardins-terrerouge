@@ -1,0 +1,104 @@
+body {
+    background: #f7491e;
+    color: #585858;
+    font-family: Verdana, Arial, sans-serif;
+    /*text-shadow: rgba(0,0,0,0.5) 0 1px 0;*/
+}
+
+a {
+    color: #585858;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-bottom: 1px dashed #585858;
+}
+
+a:hover {
+    border-bottom: 1px solid #585858;
+}
+
+.main-wrapper {
+    width: 100%;
+    background: white;
+}
+
+h1 {
+    margin: 0;
+    padding: .8em;
+}
+
+p {
+    margin-top: 0;
+    padding: .8em 1.5em;
+}
+
+.highlight {
+    background: #f96d4b;
+    margin-left: 1.5em;
+    color: #fafafa;
+}
+
+.left {
+    clear: both;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.right {
+    clear: both;
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+/* clear floats */
+.group:before,
+.group:after {
+    content: '';
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        background: #f7491e url(../img/pattern.gif);
+    }
+
+    .main-wrapper {
+        width: 93.75%;
+        margin: 0 auto;
+        box-shadow: #333 0 0 10px;
+    }
+
+    header {
+        background: #f7491e url(../img/header.jpg) repeat top left;
+        height: 320px;
+        position: relative;
+        color: white;
+        margin: 0;
+    }
+
+    header h1 {
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: transparent url(../img/tendril.png) no-repeat bottom left;
+        margin: 0;
+        padding: 70px 2% 0 0;
+        text-align: right;
+        text-transform: lowercase;
+        font-family: 'Questrial', sans-serif;
+        font-size: 3em;
+        line-height: 1.3em;
+        width: 98%;
+    }
+}
+
+@media (min-width: 960px) {
+    .main-wrapper {
+        width: 960px;
+    }
+}
