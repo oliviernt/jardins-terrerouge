@@ -2,6 +2,8 @@ body {
     background: #f7491e;
     color: #585858;
     font-family: Verdana, Arial, sans-serif;
+    font-family: 'Questrial', sans-serif;
+    line-height: 1.2em;
     /*text-shadow: rgba(0,0,0,0.5) 0 1px 0;*/
 }
 
@@ -23,12 +25,28 @@ a:hover {
 
 h1 {
     margin: 0;
+    padding: .8em .4em; 
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
     padding: .8em;
+}
+
+header h1 {
+    text-shadow: #333 1px 1px 10px;
+}
+
+h3 {
+    color: rgb(213, 46, 46);
 }
 
 p {
     margin-top: 0;
-    padding: .8em 1.5em;
+    padding: 0 1.1em .8em;
 }
 
 .highlight {
@@ -37,16 +55,29 @@ p {
     color: #fafafa;
 }
 
-.left {
-    clear: both;
+.l-grid-1,
+.l-grid-2,
+.l-grid-3,
+.l-grid-4 {
     float: left;
-    margin: 0 1em 1em 0;
+    vertical-align: top;
+    zoom: 1;
 }
 
-.right {
-    clear: both;
-    float: right;
-    margin: 0 0 1em 1em;
+.l-grid-1 {
+    width: 25%;
+}
+
+.l-grid-2 {
+    width: 50%;
+}
+
+.l-grid-3 {
+    width: 75%;
+}
+
+.l-grid-4 {
+    width: 100%;
 }
 
 /* clear floats */
@@ -73,7 +104,7 @@ p {
     }
 
     header {
-        background: #f7491e url(../img/header.jpg) repeat top left;
+        background: #f7491e url(../img/header1.jpg) repeat left -200px;
         height: 320px;
         position: relative;
         color: white;
@@ -81,16 +112,15 @@ p {
     }
 
     header h1 {
-        height: 250px;
+        height: 150px;
         position: absolute;
         bottom: 0;
         left: 0;
         background: transparent url(../img/tendril.png) no-repeat bottom left;
         margin: 0;
-        padding: 70px 2% 0 0;
+        padding: 170px 2% 0 0;
         text-align: right;
         text-transform: lowercase;
-        font-family: 'Questrial', sans-serif;
         font-size: 3em;
         line-height: 1.3em;
         width: 98%;
