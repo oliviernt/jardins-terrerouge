@@ -36,10 +36,6 @@ h6 {
     padding: .8em;
 }
 
-header h1 {
-    text-shadow: #333 1px 1px 10px;
-}
-
 h3 {
     color: rgb(213, 46, 46);
 }
@@ -53,31 +49,6 @@ p {
     background: #f96d4b;
     margin-left: 1.5em;
     color: #fafafa;
-}
-
-.l-grid-1,
-.l-grid-2,
-.l-grid-3,
-.l-grid-4 {
-    float: left;
-    vertical-align: top;
-    zoom: 1;
-}
-
-.l-grid-1 {
-    width: 25%;
-}
-
-.l-grid-2 {
-    width: 50%;
-}
-
-.l-grid-3 {
-    width: 75%;
-}
-
-.l-grid-4 {
-    width: 100%;
 }
 
 /* clear floats */
@@ -124,6 +95,32 @@ p {
         font-size: 3em;
         line-height: 1.3em;
         width: 98%;
+        text-shadow: #333 1px 1px 10px;
+    }
+
+    .l-grid-1,
+    .l-grid-2,
+    .l-grid-3,
+    .l-grid-4 {
+        float: left;
+        vertical-align: top;
+        zoom: 1;
+    }
+
+    .l-grid-1 {
+        width: 25%;
+    }
+
+    .l-grid-2 {
+        width: 50%;
+    }
+
+    .l-grid-3 {
+        width: 75%;
+    }
+
+    .l-grid-4 {
+        width: 100%;
     }
 }
 
