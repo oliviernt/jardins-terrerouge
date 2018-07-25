@@ -1,11 +1,11 @@
 {
   "theme_color": "#f32121",
   "background_color": "#f32121",
-  "display": "browser",
-  "Scope": "/",
+  "display": "standalone",
+  "scope": "/",
   "start_url": "/?utm_source=homescreen",
   "name" : "Les jardins de terre rouge",
-  "short_name" : "Jardins terre rouge",
+  "short_name" : "Terre Rouge",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

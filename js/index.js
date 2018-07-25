@@ -7,6 +7,7 @@
       var m = d.getElementById("map"),
         i = d.createElement("iframe");
       i.src = url;
+      i.title = "Position du lieut-dit l'Evescat sur Google Maps";
       i.frameborder = '0';
       i.marginheight = '0';
       i.marginwidth = '0';
