@@ -1,0 +1,23 @@
+{
+  "name": "jardins-terrerouge.fr",
+  "version": "1.0.0",
+  "description": "Les Jardins de Terre Rouge",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliviernt/jardins-terrerouge.fr.git"
+  },
+  "author": "Olivier Tille",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliviernt/jardins-terrerouge.fr/issues"
+  },
+  "homepage": "https://github.com/oliviernt/jardins-terrerouge.fr#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "workbox-cli": "^2.1.2"
+  }
+}
