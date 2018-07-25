@@ -4,6 +4,8 @@
   "display": "browser",
   "Scope": "/",
   "start_url": "/?utm_source=homescreen",
+  "name" : "Les jardins de terre rouge",
+  "short_name" : "Jardins terre rouge",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
