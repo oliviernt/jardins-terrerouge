@@ -19,6 +19,38 @@ importScripts('workbox-sw.prod.v2.1.2.js');
  */
 const fileManifest = [
   {
+    "url": "images/icons/icon-128x128.png",
+    "revision": "12120eea52eab9ad0e40a48e0d6177c0"
+  },
+  {
+    "url": "images/icons/icon-144x144.png",
+    "revision": "b6085520c88c5336273faca5a2d45ccf"
+  },
+  {
+    "url": "images/icons/icon-152x152.png",
+    "revision": "c8ccf3f11271c9457b950a9811cd4fa1"
+  },
+  {
+    "url": "images/icons/icon-192x192.png",
+    "revision": "19b03d4f5da347694a071c4e1b35b355"
+  },
+  {
+    "url": "images/icons/icon-384x384.png",
+    "revision": "17b6cce6990a6d03cfd642f58a836873"
+  },
+  {
+    "url": "images/icons/icon-512x512.png",
+    "revision": "24df155fcf486f433e765691f1ababae"
+  },
+  {
+    "url": "images/icons/icon-72x72.png",
+    "revision": "d8b9081e7a44a82dc6af4d6c2fc421b8"
+  },
+  {
+    "url": "images/icons/icon-96x96.png",
+    "revision": "1e97032da6c6a67ad19c5c36e6b1f819"
+  },
+  {
     "url": "img/favicon.ico",
     "revision": "806936a2ca51da3bc3bfc2f09f49240a"
   },
@@ -52,11 +84,15 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "99e205d4b0f9f949a76d8e6ab54a8dd8"
+    "revision": "cfe035ef641fd49ed42a7f585c58cb06"
   },
   {
     "url": "js/index.js",
     "revision": "8da79f60a695caf36c593d66713b0477"
+  },
+  {
+    "url": "manifest.json",
+    "revision": "9e84e1b353e7d1cba96c7c217fbe91e0"
   }
 ];
 
