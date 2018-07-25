@@ -84,15 +84,15 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "cfe035ef641fd49ed42a7f585c58cb06"
+    "revision": "5af5afdba5b634f9a48b1c45d44a6796"
   },
   {
     "url": "js/index.js",
-    "revision": "8da79f60a695caf36c593d66713b0477"
+    "revision": "d05e39e2cd9d8973658d93bc290908f5"
   },
   {
     "url": "manifest.json",
-    "revision": "674d9c45ef3ce7bf131bb021fe199f4b"
+    "revision": "541fb8719d6cc24d6ed79bfefd018ad4"
   }
 ];
 
