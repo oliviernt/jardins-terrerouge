@@ -4,6 +4,7 @@
   "description": "Les Jardins de Terre Rouge",
   "main": "index.html",
   "scripts": {
+    "build" : "./node_modules/workbox-cli/build/bin.js generateSW workbox-cli-config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
