@@ -19,6 +19,6 @@
   "homepage": "https://github.com/oliviernt/jardins-terrerouge.fr#readme",
   "devDependencies": {
     "node-sass": "4.12.0",
-    "workbox-cli": "4.3.0"
+    "workbox-cli": "4.3.1"
   }
 }
